@@ -9,7 +9,7 @@ func SubtractPositives(a, b int) int {
 }
 
 func SubtractNegatives(a, b int) int {
-	if a < 0 || b < 0 {
+	if a > 0 || b > 0 {
 		return 1
 	}
 
